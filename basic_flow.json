@@ -1,0 +1,37 @@
+[
+    {
+        "id": "7bd471d.82d889",
+        "type": "mqtt out",
+        "z": "4a9a086a.b565f8",
+        "name": "",
+        "topic": "cs6301/test",
+        "qos": "2",
+        "retain": "",
+        "broker": "8c1f709c.2e5f1",
+        "x": 450,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "8c1f709c.2e5f1",
+        "type": "mqtt-broker",
+        "z": "",
+        "name": "public broker",
+        "broker": "test.mosquitto.org",
+        "port": "1883",
+        "clientid": "",
+        "usetls": false,
+        "compatmode": false,
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": ""
+    }
+]
